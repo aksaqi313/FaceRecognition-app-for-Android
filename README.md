@@ -13,26 +13,8 @@ Fully compliant with ISO/IEC 30107-1 biometric standards
 On-device processing only — no cloud transmission or data leakage
 
 🏆 Industry Recognition
-
-Our facial recognition engine is globally top-ranked by NIST in the FRVT 1:1 leaderboards, demonstrating exceptional accuracy and robustness.
-
-📄 NIST FRVT Evaluation Report (2024-12-20)
-👉 https://pages.nist.gov/frvt/html/frvt11.html
-
-🔗 Related Resources
-
-🆔 ID Document Liveness Detection (Linux) – https://web.kby-ai.com
-
-🤗 Hugging Face Models – https://huggingface.co/kby-ai
-
-📚 Product Documentation & Resources – https://github.com/kby-ai/Product
-
-🛟 Help Center – https://docs.kby-ai.com
-
-💼 KYC Verification Demo (Android) – https://github.com/kby-ai/KYC-Verification-Demo-Android
-
-🐳 Docker Hub – https://hub.docker.com/r/kbyai/face-liveness-detection
-
+ 
+ 
 Overview
 
 This repository showcases face recognition and face liveness detection technologies developed by KBY-AI, optimized specifically for native Android applications.
@@ -71,58 +53,12 @@ Google Play
 Download the official demo application from Google Play to experience real-time face recognition and liveness detection.
 
 🎥 Performance Demonstration
-
-Watch the performance demo on YouTube:
-👉 https://www.youtube.com/watch?v=HpDggnWsG1c
-
+ 
 📸 Screenshots
 
 (Screenshots retained as provided)
-
-🔐 SDK License
-
-Refer to the example below to understand SDK license activation:
-https://github.com/kby-ai/FaceRecognition-Android/blob/main/app/src/main/java/com/kbyai/facerecognition/MainActivity.kt
-
-📦 SDK Integration Guide
-1. Setup
-
-Copy the libfacesdk directory into your project’s root folder.
-
-Include the SDK module in settings.gradle:
-
-include ':libfacesdk'
-
-
-Add the dependency in build.gradle:
-
-implementation project(path: ':libfacesdk')
-
-2. SDK Initialization
-Step 1: Activate the SDK
-FaceSDK.setActivation("YOUR_LICENSE_KEY")
-
-
-A successful activation returns SDK_SUCCESS.
-
-Step 2: Initialize the SDK
-FaceSDK.init(assets)
-
-
-Initialization must complete successfully before using any SDK functions.
-
-3. Core SDK Classes
-FaceDetectionParam
-
-This class controls face detection and optional liveness verification.
-
-Parameter	Type	Description
-check_liveness	Boolean	Enables liveness detection
-check_liveness_level	Int	Liveness detection mode
-
-0 → High-accuracy liveness detection
-
-1 → Lightweight, faster processing
+  
+  
 
 🔧 SDK APIs
 Face Detection & Liveness
